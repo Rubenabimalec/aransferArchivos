@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Entorno
+.env
+
+# Docker
+*.log
+
+# Uploads (archivos subidos por usuarios)
+uploads/*
+!uploads/.gitkeep
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
